@@ -1,11 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <div><h1>Hello world</h1></div>
+    <div class="px-8 flex justify-between items-center py-4 bg-blue-800 text-white fixed left-0 right-0 top-0 z-50">
+
+        <div class="flex justify-center">
+            <h1 class="">Logo</h1>
+        </div>
+
+
+        <div class="flex gap-6 ">
+            <h2 class="cursor-pointer">Home</h2>
+            <h2 class="cursor-pointer">Project</h2>
+            <h2 class="cursor-pointer">Contact</h2>
+            <h2 class="cursor-pointer">Login</h2>
+        </div>
+    </div>
+
+    <div class="border-[4px] border-red-500 h-screen text-black flex justify-between">
+        <div class="child border mt-16
+        w-1/2  flex flex-col justify-center items-start pl-8">
+            <h2 class="text-7xl font-bold ">Bini</h2>
+
+            <button
+                class="font-bold text-2xl border border-blue-500 rounded-md px-4 py-2 bg-blue-400 mt-4">Download</button>
+
+        </div>
+        <div class="border w-1/2">df</div>
+    </div>
 </body>
+
 </html>
